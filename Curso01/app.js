@@ -9,7 +9,7 @@ console.log(numeroUsuario);
  */
 if (numeroUsuario == numeroSecreto){
     // acertamos, condición Verdadera
-    alert('Acertaste el número');
+    alert(`Acertaste,  el número es: ${numeroUsuario}`); // Template Strings
 } else {
     // No acertaste, condición Falsa
     alert('Lo siento, no acerptaste el número secreto')
