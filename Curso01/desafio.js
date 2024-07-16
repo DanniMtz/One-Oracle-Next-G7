@@ -1,4 +1,5 @@
-// https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+// https://developer.mozilla.org/es/docs/Learn/JavaScript
+// https://www.aluracursos.com/blog/guia-de-javascript
 // 01 Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
 alert('¡Bienvenida y bienvenido a nuestro sitio web!');
 //Declara una variable llamada nombre y asígnale el valor "Luna".
