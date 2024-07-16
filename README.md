@@ -183,9 +183,9 @@ Soy un emprendedor apasionado por la tecnología y la creatividad. Actualmente, 
   - Estado:
 
 ## Recursos Utilizados
-- [Documentación de MDN](https://developer.mozilla.org/)
+- [Documentación de MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript)
+- [Curso de JavaScript: Guía de JavaScript](https://www.aluracursos.com/blog/guia-de-javascript)
 - [Curso de HTML y CSS](https://example.com)
-- [Curso de JavaScript](https://example.com)
 - [Documentación de Node.js](https://nodejs.org/)
 
 ## Contacto
