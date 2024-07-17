@@ -6,7 +6,7 @@ let intentos = 1;
 let maximoIntentos = 3
 
 while (numeroUsuario != numeroSecreto) { // Mientras numeroUsuario sea Diferente continua
-    numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor");
+    numeroUsuario = parseInt(prompt("Me indicas un número entre 1 y 10 por favor"));
 
     console.log(numeroUsuario);
 
@@ -20,8 +20,7 @@ while (numeroUsuario != numeroSecreto) { // Mientras numeroUsuario sea Diferente
         }else {
             alert('El número secreto es mayor');
         }
-        // No acertaste, condición Falsa
-        // alert('Lo siento, no acerptaste el número secreto');
+       
         // intentos = intentos + 1;
         // intentos +=1;
         intentos ++;
@@ -30,6 +29,8 @@ while (numeroUsuario != numeroSecreto) { // Mientras numeroUsuario sea Diferente
             alert(`Llegaste al número de intentos máximo ${maximoIntentos}`);
             break;
         }
+         // No acertaste, condición Falsa
+        // alert('Lo siento, no acerptaste el número secreto');
     }
 }
 
