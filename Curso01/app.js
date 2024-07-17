@@ -1,5 +1,5 @@
 // Variables
-let numeroSecreto = 6;
+let numeroSecreto = Math.floor(Math.random()*10)+1; // .floor obtiene el entero, + 1 para no incluir el 0 (1-10)
 let numeroUsuario = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
