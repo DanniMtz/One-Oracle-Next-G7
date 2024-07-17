@@ -23,6 +23,10 @@ while (numeroUsuario != numeroSecreto) { // Mientras numeroUsuario sea Diferente
         // alert('Lo siento, no acerptaste el número secreto');
         intentos = intentos + 1;
         palabraVeces ='veces';
+        if(intentos > 3){
+            alert('Llegaste al número de intentos máximo');
+            break;
+        }
     }
 }
 
