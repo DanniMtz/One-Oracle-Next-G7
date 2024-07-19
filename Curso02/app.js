@@ -6,3 +6,9 @@ titulo.innerHTML = 'Juego del número secreto';
 // Asinamos a etiqueta parrafo un Texto
 let parrafo = document.querySelector('p');
 parrafo.innerHTML = 'Indica un número del 1 al 10';
+
+
+// Creacion de Funcion intentoDelUsuario
+function intentoDeUsuario(){
+    alert('Click desde el Botón')
+}
