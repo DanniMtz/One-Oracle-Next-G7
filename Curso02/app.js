@@ -10,7 +10,7 @@ let parrafo = document.querySelector('p');
 parrafo.innerHTML = 'Indica un número del 1 al 10';
 */ 
 let numeroSecreto = generarNumeroSecreto();
-
+let intentos = 1;
 console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento,texto){
@@ -31,7 +31,7 @@ function verificarIntento(){
     console.log(numeroDelUsuario);
     console.log(numeroSecreto === numeroDelUsuario); //  compara mismo valor mismo tipo de dato*/
     if(numeroSecreto === numeroDelUsuario){
-        asignarTextoElemento('p','Acertaste el número');
+        asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1)? 'vez':'veces'}`);
     } else {
         if(numeroSecreto > numeroDelUsuario){
             asignarTextoElemento('p','El número Secreto es mayor');
@@ -39,6 +39,7 @@ function verificarIntento(){
             asignarTextoElemento('p','El número secreto es menor');
         }
     }
+    intentos ++;
     return;
 }
 
