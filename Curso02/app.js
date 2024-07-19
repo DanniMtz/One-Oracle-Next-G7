@@ -23,8 +23,13 @@ return;
 
 
 // Creacion de Funcion intentoDelUsuario
-function intentoDeUsuario(){
-    alert('Click desde el Botón')
+function verificarIntento(){
+    let numeroDelUsuario = parseInt(document.getElementById('valorUsuario').value);
+    console.log(typeof(numeroSecreto));
+    console.log(numeroSecreto);
+    console.log(numeroDelUsuario);
+    console.log(numeroSecreto === numeroDelUsuario); //  compara mismo valor mismo tipo de dato
+    return;
 }
 
 function generarNumeroSecreto(){
