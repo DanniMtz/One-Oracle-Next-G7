@@ -25,10 +25,20 @@ return;
 // Creacion de Funcion intentoDelUsuario
 function verificarIntento(){
     let numeroDelUsuario = parseInt(document.getElementById('valorUsuario').value);
-    console.log(typeof(numeroSecreto));
+    /*console.log(typeof(numeroDelUsuario));
     console.log(numeroSecreto);
+    console.log(typeof(numeroSecreto));
     console.log(numeroDelUsuario);
-    console.log(numeroSecreto === numeroDelUsuario); //  compara mismo valor mismo tipo de dato
+    console.log(numeroSecreto === numeroDelUsuario); //  compara mismo valor mismo tipo de dato*/
+    if(numeroSecreto === numeroDelUsuario){
+        asignarTextoElemento('p','Acertaste el número');
+    } else {
+        if(numeroSecreto > numeroDelUsuario){
+            asignarTextoElemento('p','El número Secreto es mayor');
+        }else{
+            asignarTextoElemento('p','El número secreto es menor');
+        }
+    }
     return;
 }
 
